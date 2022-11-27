@@ -1,0 +1,209 @@
+<html>
+    <head>
+        <title>Discovering Music</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <style>
+
+
+html
+{
+	padding: 0 1em;
+	font-family: Calibri, sans-serif;
+}
+
+body
+{
+    background-image: url('https://media.istockphoto.com/id/1001928116/photo/empty-vintage-seat-in-auditorium-or-theater-with-lights-on-stage.jpg?b=1&s=170667a&w=0&k=20&c=4Dc4FMXGUjaWzNkvFK2gjO9lYi9FiBvXaCDPNe2l5kk=');
+    background-size: cover;
+	margin: auto;
+	max-width: 42em;
+}
+
+img
+{
+    height: 200px;
+	max-width: 100%;
+}
+
+.image-left, .image-right
+{
+	margin: 1em 0;
+}
+
+@media (min-width: 20em)
+{
+	.image-left, .image-right
+	{
+		display: flex;
+		align-items: center;
+	}
+
+    .bo{
+        margin: 10px;
+        background-color: rgb(233, 238, 239);
+        border: 3px solid black;
+        border-radius: 15px;
+    }
+
+	.image-left img
+	{
+        border: 3px solid aqua;
+		margin-right: 1em;
+		float: left; /* fallback */
+	}
+
+    button {
+        margin: 10px;
+  text-decoration: none;
+  border: 2px solid yellow;
+  padding: 10px 20px;
+  font-size: 10px;
+  font-family: sans-serif;
+  letter-spacing: 2px;
+  transition: all 0.5s;
+  position: relative;
+}
+button:hover{
+    color: blue;
+    border: 2px solid red;
+}
+	.image-right img
+	{
+		order: 1;
+		margin-left: 1em;
+		float: right; /* fallback */
+	}
+	
+	/* clearfix for fallback */
+	.image-left::after,
+	.image-right::after
+	{
+		content: "";
+  	display: block;
+		clear: both;
+	}
+}
+
+.checked{
+    color: orange;
+}
+
+@media (min-width: 30em)
+{
+	.image-left img, .image-right img
+	{
+		flex-shrink: 0;
+	}
+}
+
+
+        </style>
+    </head>
+    <body>
+        <h1 style="color: rgb(42, 203, 235); font-size: 50px;">The best Music of all time</h1>
+       <div class="bo"> 
+        <div class="image-left">
+            <img src="https://i.ytimg.com/vi/j6gP3Lim7_k/hqdefault.jpg" alt="Human Rights Logo"/>
+            <div>
+                <h2><span style="color: red;">Mozart – Eine kleine Nachtmusik</span>(2022)</h2>
+                <p>The official name of this piece is the Serenade No. 13 for strings in G major, and it was composed by Wolfgang Amadeus Mozart in 1787</p>
+                <footer>Stars: <span style="color: blue;">Claire Foy, Olivia Colman, Imelda Staunton, Matt Smith</span></footer>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star"></span>
+                <a href="https://youtu.be/CNRQ-DW7064"><button type="button">Watch Here</button></a>
+            </div>
+        </div>
+    </div>
+        
+    <div class="bo"> 
+        <div class="image-right">
+            <img src="https://i.scdn.co/image/ab67616d0000b273271004778e0a762c4df2a5a5" alt="Human Rights Logo"/>
+            <div>
+                <h2><span style="color: red;">Beethoven – Für Elise </span>(2022-)</h2>
+                <p>This piece was never published during Beethoven’s lifetime and it wasn't even discovered until forty years after his death.</p>
+                <footer>Stars: <span style="color: blue;"> Emily Beecham, Aneurin Barnard, Andreas Pietschmann, Miguel Bernardeau</span></footer>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star"></span>
+                <a href="https://youtu.be/CNRQ-DW7064"><button type="button">Watch Here</button></a>
+            </div>
+        </div>
+    </div>
+
+        <div class="bo"> 
+        <div class="image-left">
+            <img src="https://i.ytimg.com/vi/f59v8r1CBIo/hqdefault.jpg" alt="Human Rights Logo"/>
+            <div>
+                <h2><span style="color: red;">Puccini – 'O mio babbino caro' from Gianni Schicchi </span>(2018-)</h2>
+                <p>There might be uncontacted tribes in the Amazon who haven't heard this piece, but there can't be many other people in the world who wouldn't recognise this famous aria by Puccini.</p>
+                <footer>Stars: <span style="color: blue;"> Kevin Costner, Luke Grimes, Kelly Reilly, Wes Bentley</span></footer>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star"></span>
+                <button type="button">Watch Here</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="bo"> 
+        <div class="image-right">
+            <img src="https://m.media-amazon.com/images/M/MV5BYjdjNzBmYjEtM2Y5My00YjI0LWJjY2YtOGQ4MjNkNmE2MDVjXkEyXkFqcGdeQXVyMTEyMjM2NDc2._V1_.jpg" alt="Human Rights Logo"/>
+            <div>
+                <h2><span style="color: red;">The White Lotus </span>(2021-2022)</h2>
+                <p>Set in a tropical resort, it follows the exploits of various guests and employees over the span of a week.</p>
+                <footer>Stars: <span style="color: blue;">Jennifer Coolidge, Jon Gries, Eleonora Romandini, Federico Ferrante</span></footer>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star"></span>
+                <button type="button">Watch Here</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="bo"> 
+        <div class="image-left">
+            <img src="https://resizing.flixster.com/MNXqeczvvBC7oHMlYxfEfZwzxFU=/ems.cHJkLWVtcy1hc3NldHMvdHZzZWFzb24vNTYxOGM1ZTItNDMyNi00NTUwLTkzMDQtMjEzMThkOTI3NzAyLmpwZw==" alt="Human Rights Logo"/>
+            <div>
+                <h2><span style="color: red;">Andor</span>(2022-)</h2>
+                <p>Prequel series to Star Wars' 'Rogue One'. In an era filled with danger, deception and intrigue, Cassian will embark on the path that is destined to turn him into a Rebel hero.</p>
+                <footer>Stars: <span style="color: blue;"> Diego Luna, Kyle Soller, Stellan Skarsgård, Genevieve O'Reilly</span></footer>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star"></span>
+                <button type="button">Watch Here</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="bo"> 
+        <div class="image-right">
+            <img src="https://m.media-amazon.com/images/M/MV5BZmU5NTcwNjktODIwMi00ZmZkLTk4ZWUtYzVjZWQ5ZTZjN2RlXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_UY1200_CR83,0,630,1200_AL_.jpg" alt="Human Rights Logo"/>
+            <div>
+                <h2><span style="color: red;">The Walking Dead</span>(2010-2022)</h2>
+                <p>Sheriff Deputy Rick Grimes wakes up from a coma to learn the world is in ruins and must lead a group of survivors to stay alive.</p>
+                <footer>Stars: <span style="color: blue;"> Andrew Lincoln, Norman Reedus, Melissa McBride, Lauren Cohan
+
+                    Votes: 985,936</span></footer>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star"></span>
+                <button type="button">Watch Here</button>
+            </div>
+        </div>
+    </div>
+
+    </body>
+</html>
